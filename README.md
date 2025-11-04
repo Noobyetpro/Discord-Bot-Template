@@ -50,54 +50,7 @@ node bot.js
 
 ---
 
-## 🔌 Using the Groq API
 
-This template includes optional support for the **Groq API**.
-
-You can call it inside a command or event like:
-
-```js
-const response = await groq.chat.completions.create({
-  model: "mixtral-8x7b",
-  messages: [{ role: "user", content: "Hello!" }]
-});
-```
-
-If the API key is missing, the bot will simply skip AI-related features.
-
----
-
-## 🛠️ Customizing the Bot
-
-### Add a Command
-
-Create a new file in `commands/`:
-
-```js
-module.exports = {
-  name: "ping",
-  description: "Replies with Pong!",
-  execute(message) {
-    message.reply("Pong!");
-  }
-};
-```
-
-### Add an Event
-
-Inside `events/`:
-
-```js
-module.exports = {
-  name: "ready",
-  once: true,
-  execute(client) {
-    console.log(`${client.user.tag} is online!`);
-  }
-};
-```
-
----
 
 ## 🧪 Testing
 
