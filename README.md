@@ -34,7 +34,8 @@ This template is designed for developers who want a fast, organized starting poi
 npm install
 ```
 
-### 2. Create a `.env` file
+### 2. open the  `.env` file and edit these stuff shown below. 
+Ways to obtain them are self explanatory and if u dont know u noob
 
 ```
 TOKEN=your_discord_bot_token
