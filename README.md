@@ -60,7 +60,7 @@ You can test commands locally by running:
 node bot.js
 ```
 
-Make sure your bot is invited to your server with appropriate permissions. you can set your bot permissions [here](https://discord.com/developers/applications/REPLACE WITH UR BOT ID/installation)
+Make sure your bot is invited to your server with appropriate permissions. you can set your bot permissions [here](https://discord.com/developers/applications/REPLACE-WITH-UR BOT-ID/installation)
 ---
 
 ## 📤 Deployment
