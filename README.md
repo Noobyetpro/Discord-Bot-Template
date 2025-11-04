@@ -7,10 +7,7 @@ This template is designed for developers who want a fast, organized starting poi
 ---
 
 ## ✅ Features
-
-* **Slash commands** and/or **message commands** (your choice)
-* Organized folder structure (commands, events, config)
-* Built-in **Groq API** integration (optional)
+* Built-in **Groq API** integration
 * Fast startup with Node.js + `discord.js`
 * Environment variable support with `.env`
 * Easy to deploy locally or on platforms like Replit, Railway, Render, etc.
