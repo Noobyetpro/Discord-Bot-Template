@@ -1,0 +1,17 @@
+{
+  "name": "Discord Bot Template",
+  "version": "1.4.2",
+  "description": "Discord bot template that is absolutly trash",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.7.0",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "author": "rxnd0m_dev, aka noobyetpro",
+  "license": "ISC"
+}
