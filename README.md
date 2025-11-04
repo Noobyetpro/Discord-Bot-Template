@@ -39,7 +39,7 @@ Ways to obtain them are self explanatory and if u dont know u noob
 
 ```
 TOKEN=your_discord_bot_token
-GROQ_API_KEY=your_groq_api_key   # Optional
+GROQ_API_KEY=your_groq_api_key 
 ```
 
 ### 3. Run the Bot
