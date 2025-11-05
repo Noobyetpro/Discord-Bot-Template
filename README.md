@@ -91,15 +91,26 @@ https://discord.com/oauth2/authorize?client_id=YOUR_APPLICATION_ID&scope=bot&per
 * Ensure `node bot.js` is your start command
 
 ---
-## 👩‍💻 Command Support
+## Command Reference
 
-There are many commands supported in this bot, specificly:
-  /personality set <text> #Used to set a personality for the bot, e.g. "You are very dumb because u use a template instead of creating the bot from scratch"
-  /personality view #Used to display the personality
-  /personality clear #Used to clear personality
-  /permission <set> <role> #Used to add/remove roles that have the permission to use commands
-  /setai <api platform> #Used to set the api platform you want your bot to use. You only need one.
-  /channel #Used to set where the channel the bot will listen for messages and reply. Run in the channel u want it to reply.
+/personality set <text>
+Set the bot’s active personality string.
+
+/personality view
+Show the current personality.
+
+/personality clear
+Remove the current personality.
+
+/permission <set|remove> <role>
+Grant or revoke a role’s access to bot commands.
+
+/setai <provider>
+Select the AI backend used for responses. Only one is active.
+
+/channel
+Bind the bot to the channel where this command is run. The bot listens and replies only there.
+
 ---
 ## 🤝 Contributing
 
