@@ -21,6 +21,9 @@ This template is designed for developers who want a fast, organized starting poi
  ┣ 📄 bot.js          # Main bot file
  ┣ 📄 .env
  ┣ 📄 package.json
+ ┣ 📄 userpreference.json
+ ┣ 📄 guildchannels.json
+ ┣ 📄 guildpermissions.json
  ┗ 📄 README.md
 ```
 
