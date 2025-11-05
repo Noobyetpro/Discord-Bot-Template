@@ -68,7 +68,7 @@ Make sure your bot is invited to your server with appropriate permissions. you c
 ### Replit
 
 * Import the project
-* Run normally if ur not dump
+* Run normally if ur not dumb
 
 ### Other platforms
 
