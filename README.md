@@ -71,7 +71,10 @@ You can test commands locally by running:
 node bot.js
 ```
 
-Make sure your bot is invited to your server with appropriate permissions. you can set your bot permissions [here](https://discord.com/developers/applications/REPLACE-WITH-UR-BOT-ID/installation)
+Make sure your bot is invited to your server with appropriate permissions. Use an invite link with this format:
+```bash
+https://discord.com/oauth2/authorize?client_id=YOUR_APPLICATION_ID&scope=bot&permissions=8
+```
 ---
 
 ## 📤 Deployment
@@ -88,7 +91,16 @@ Make sure your bot is invited to your server with appropriate permissions. you c
 * Ensure `node bot.js` is your start command
 
 ---
+## 👩‍💻 Command Support
 
+There are many commands supported in this bot, specificly:
+  /personality set <text> #Used to set a personality for the bot, e.g. "You are very dumb because u use a template instead of creating the bot from scratch"
+  /personality view #Used to display the personality
+  /personality clear #Used to clear personality
+  /permission <set> <role> #Used to add/remove roles that have the permission to use commands
+  /setai <api platform> #Used to set the api platform you want your bot to use. You only need one.
+  /channel #Used to set where the channel the bot will listen for messages and reply. Run in the channel u want it to reply.
+---
 ## 🤝 Contributing
 
 Pull requests are welcome! If you want to improve structure, add better command loaders, or enhance Groq integration, feel free to open an issue first.
