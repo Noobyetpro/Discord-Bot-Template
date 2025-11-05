@@ -1,17 +1,17 @@
 {
-  "name": "Discord Bot Template",
-  "version": "1.4.2",
-  "description": "Discord bot template that is absolutly trash",
+  "name": "discord-bot-template",
+  "version": "1.15.1",
+  "description": "Discord bot template with multi-AI platform support and per-user AI preference",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.7.0",
-    "discord.js": "^14.15.2",
-    "dotenv": "^16.4.5",
-    "node-fetch": "^3.3.2"
-  },
-  "author": "rxnd0m_dev, aka noobyetpro",
-  "license": "ISC"
+    "@google/genai": "^1.28.0",
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1",
+    "groq-sdk": "^0.34.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.11.0"
+  }
 }
