@@ -41,9 +41,17 @@ npm install
 Ways to obtain them are self explanatory and if u dont know u noob
 
 ```
-TOKEN=your_discord_bot_token
-GROQ_API_KEY=your_groq_api_key 
+TOKEN=
+GROQ_API_KEY=
+OPENAI_API_KEY=
+GOOGLE_AI_KEY=
+CLAUD_API_KEY=
+AIML_API_KEY=
+CLIENT_ID=
+GUILD_ID=
+
 ```
+Note: You only need one of the api keys unless you want to try different apu platforms.
 
 ### 3. Run the Bot
 
