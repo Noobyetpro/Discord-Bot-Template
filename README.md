@@ -128,4 +128,4 @@ This project is licensed under the MIT License. Use it freely for personal or co
 
 ### ⭐ If you find this template helpful, consider starring the repo!
 
-### U also have to @ / reply the bot to make it say something if it said nothing copy log and open issue
+
