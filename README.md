@@ -1,4 +1,4 @@
-# Discord Bot Template (Node.js + Groq API)
+# Discord Bot Template (Node.js + Multiple API support)
 
 A clean, modern, and scalable **Discord bot template** built with **Node.js**, structured event handling, and optional integration with the **Groq API** for AI-powered interactions.
 
@@ -7,7 +7,7 @@ This template is designed for developers who want a fast, organized starting poi
 ---
 
 ## ✅ Features
-* Built-in **Groq API** integration
+* Built-in **Multiple API platform** integration (see below)
 * Fast startup with Node.js + `discord.js`
 * Environment variable support with `.env`
 * Easy to deploy locally or on platforms like Replit, Railway, Render, etc.
@@ -24,6 +24,8 @@ This template is designed for developers who want a fast, organized starting poi
  ┣ 📄 userpreference.json
  ┣ 📄 guildchannels.json
  ┣ 📄 guildpermissions.json
+ ┣ 📁 APIS
+    ┣ other files...
  ┗ 📄 README.md
 ```
 
