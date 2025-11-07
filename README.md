@@ -116,7 +116,7 @@ Bind the bot to the channel where this command is run. The bot listens and repli
 ---
 ## 🤝 Contributing
 
-Pull requests are welcome! If you want to improve structure, add better command loaders, or enhance Groq integration, feel free to open an issue first.
+Pull requests are welcome! If you want to improve structure, add better command loaders, or enhance API integration, feel free to open an issue first.
 
 ---
 
